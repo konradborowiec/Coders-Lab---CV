@@ -1,0 +1,74 @@
+﻿body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background: url(images/bg.jpg);
+	font: 13px Helvetica, Sans-Serif; color: #c2c2c2; line-height: 18px 50px 50px -50px;
+}
+
+#logo {
+	margin: 13px 0 0 25; width: 200px;
+}
+
+#header {
+	height: 90px; padding: 0 0 0 0;
+	background: url(images/header-bg.png);
+}
+	
+#container {
+	width: 1024px; margin: -65px 0 0 310px;
+}
+
+#nav {
+	background: url(images/header-bg.png)
+	width: 1024px; list-style: none; overflow: auto; margin: 0 0 0 0;
+}
+	ul#nav li {
+		width: 126px; height: 33px; float: left; padding: 13px 0 0 0;
+		font-weight: bold; text-align: center; text-transform: uppercase;
+	}
+		ul#nav li:nth-child(1) {
+			margin: 20px 40px 0 0;
+		}
+		ul#nav li:nth-child(2) {
+			margin: 20px 40px 0 0;
+		}
+		ul#nav li:nth-child(3) {
+			margin: 20px 40px 0 0;
+		}
+		ul#nav li:nth-child(4) {
+			margin: 20px 0 0 0;
+		}
+
+		ul#nav li a {
+			color: #000000; text-decoration: none;
+		}
+			ul#nav li a:hover {
+				color: #0066ff;
+			}
+
+#text {
+	height: 400px; width: 1024px; padding: -110 0 0 150;
+	background: url(images/home_header.png);
+}
+	#text h1 {
+		font: 22px Georgia, Serif; color: #FFFFFF; letter-spacing: 2px; margin: 160px 0 10 20;
+		}
+	#text h2 {
+		width: 810px; font: 16px Georgia, Serif; color: #FFFFFF; letter-spacing: 2px; margin: 20px 0 20px 20;
+		}
+	#text h3 {
+		font: 12px Georgia, Serif; font-style: italic; color: #FFFFFF; letter-spacing: 2px; margin: 20px 0 0 20;
+		}
+
+#tabela {
+	margin: -255px 0 0 50px;
+}
+	
+#foto {
+	margin: -320px 0 0 450px;
+}
+
+
+
